@@ -25,6 +25,11 @@ void test_multiply(void) {
     TEST_ASSERT_EQUAL(0, multiply(10, 0));
 }
 
+void test_subtract_zero(void) {
+    TEST_ASSERT_EQUAL(5, subtract(5, 0)); // New test
+}
+
+
 void test_divide(void) {
     TEST_ASSERT_EQUAL(2, divide(10, 5));
     TEST_ASSERT_EQUAL(-2, divide(-10, 5));
